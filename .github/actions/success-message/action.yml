@@ -1,0 +1,7 @@
+name: "Powiadomienie o Sukcesie"
+description: "Wypisuje prostą wiadomość na koniec"
+runs:
+  using: "composite"
+  steps:
+    - run: echo "🚀🚀🚀 GRATULACJE! Wszystko działa, masz 5.0! 🚀🚀🚀"
+      shell: bash
