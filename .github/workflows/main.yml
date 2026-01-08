@@ -29,5 +29,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - name: Uruchom moją akcję
+      - name: Uruchom wlasna akcje
         uses: ./.github/actions/success-message
+        with:
+          author: ${{ github.actor }}
